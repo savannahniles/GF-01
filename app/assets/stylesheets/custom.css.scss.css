@@ -17,11 +17,16 @@ html {
 }
 
 body {
+  color: #5a5a5a;
   padding-top: 60px;
 }
 
 section {
   overflow: auto;
+}
+
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, .container,  {
+  width: 90%;
 }
 
 textarea {
@@ -42,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  color: #333333;
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
@@ -49,17 +55,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
 }
 
 p {
   font-size: 1.1em;
-  line-height: 1.7em;
 }
 
 
@@ -103,6 +104,68 @@ footer {
     li {
       float: left;
       margin-left: 10px;
+    }
+  }
+}
+
+/* splash page */
+.jumbotron {
+  font-size: center;
+  margin: 25px 0;
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  h1 {
+    font-size: 100px;
+  }
+  .lead {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+.divider {
+  margin: 80px 0;
+}
+
+.featurette {
+  text-align: left;
+  padding-top: 120px;
+  overflow: hidden;
+  h2 {
+    text-align: left;
+  }
+}
+
+.featurette-image {
+  margin-top: -120px;
+  .pull-right {
+    margin-left: 40px;
+  }
+  .pull-left {
+    margin-right: 40px;
+  }
+}
+
+.featurette-heading {
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.row {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  .span4 {
+    width: 31%;
+    text-align: center;
+    p {
+      margin: 0px 10px;
     }
   }
 }
